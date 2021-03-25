@@ -182,4 +182,51 @@ html {
   background-color: white;
 }
 
+/*...........................................................*/
+.hot-products {
+  position: relative;
+  width: 130rem;
+  background-color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 3rem 0;
+}
+.hot-products h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.hot-products .products {
+  margin-top: 5rem;
+  display: flex;
+  width: 100%;
+}
+.hot-products .products .card-product {
+  overflow: hidden;
+  width: 25%;
+  padding: 0.1rem;
+}
+.hot-products .products .card-product .product {
+  position: relative;
+  width: 24rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.hot-products .products .card-product .product a {
+  text-decoration: none;
+}
+.hot-products .products .card-product .product a img {
+  width: 24rem;
+}
+.hot-products .products .card-product .product a li {
+  text-transform: uppercase;
+  list-style: none;
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+.hot-products .products .card-product .product:hover {
+  border: 0.1rem solid #c2bcbc;
+}
+
 /*# sourceMappingURL=style.css.map */
