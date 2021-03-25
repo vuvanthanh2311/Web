@@ -1,4 +1,5 @@
 .nav-bar {
+    background-color: white;
     &--tag {
         display: inline-flex;
         width: 67%;
@@ -18,6 +19,7 @@
                     position: absolute;
                     background-color: rgb(212, 226, 226);
                     min-width: 12rem;
+                    z-index: 999;
                     li {
                         font-size: 1.6rem;
                         list-style: none;

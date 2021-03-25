@@ -7,6 +7,14 @@ html {
   font-size: 62.5%;
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
 /*...........................................................*/
 .login-bar {
   line-height: 3rem;
@@ -38,6 +46,9 @@ html {
   margin-left: 0.6rem;
 }
 
+.nav-bar {
+  background-color: white;
+}
 .nav-bar--tag {
   display: inline-flex;
   width: 67%;
@@ -60,6 +71,7 @@ html {
   position: absolute;
   background-color: #d4e2e2;
   min-width: 12rem;
+  z-index: 999;
 }
 .nav-bar--tag > ul > li .dropdown li {
   font-size: 1.6rem;
@@ -117,6 +129,57 @@ html {
 }
 .nav-bar--form .cart:hover {
   background-color: yellow;
+}
+
+.banner {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.banner .slideshow {
+  display: flex;
+  width: 400%;
+}
+.banner .slideshow .slide {
+  width: 25%;
+  transition: all 0.6s;
+}
+.banner .slideshow .slide img {
+  width: 100%;
+}
+.banner .slideshow input[name=dot] {
+  display: none;
+}
+.banner .slideshow #dot-1:checked ~ .s1 {
+  margin-left: 0;
+}
+.banner .slideshow #dot-2:checked ~ .s1 {
+  margin-left: -25%;
+}
+.banner .slideshow #dot-3:checked ~ .s1 {
+  margin-left: -50%;
+}
+.banner .slideshow #dot-4:checked ~ .s1 {
+  margin-left: -75%;
+}
+.banner .navigation {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 1rem;
+  display: flex;
+}
+.banner .navigation .bar {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 0.1rem solid #0c0c0c;
+  border-radius: 3rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.banner .navigation .bar:hover {
+  border: 0.1rem solid red;
+  background-color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

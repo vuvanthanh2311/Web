@@ -1,0 +1,50 @@
+.banner {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    .slideshow {
+        display: flex;
+        width: 400%;
+        .slide {
+            width: 25%;
+            transition: all .6s;
+            img {
+                width: 100%;
+            }
+        }
+        input[name="dot"] {
+            display: none;
+        }
+        #dot-1:checked~.s1 {
+            margin-left: 0;
+        }
+        #dot-2:checked~.s1 {
+            margin-left: -25%;
+        }
+        #dot-3:checked~.s1 {
+            margin-left: -50%;
+        }
+        #dot-4:checked~.s1 {
+            margin-left: -75%;
+        }
+    }
+    .navigation {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 1rem;
+        display: flex;
+        .bar {
+            width: 1.5rem;
+            height: 1.5rem;
+            border: .1rem solid rgb(12, 12, 12);
+            border-radius: 3rem;
+            margin: .5rem;
+            cursor: pointer;
+            &:hover {
+                border: .1rem solid red;
+                background-color: white;
+            }
+        }
+    }
+}
