@@ -190,6 +190,7 @@ html {
   left: 50%;
   transform: translateX(-50%);
   padding: 3rem 0;
+  border-bottom: 0.1rem solid #b6b0b0;
 }
 .hot-products h1 {
   font-size: 3rem;
@@ -200,23 +201,28 @@ html {
   margin-top: 5rem;
   display: flex;
   width: 100%;
+  margin-bottom: 3rem;
 }
 .hot-products .products .card-product {
-  overflow: hidden;
   width: 25%;
-  padding: 0.1rem;
+  height: 100%;
 }
 .hot-products .products .card-product .product {
   position: relative;
-  width: 24rem;
+  width: 24.6rem;
   left: 50%;
   transform: translateX(-50%);
+  padding: 0.3rem;
+  padding-bottom: 3rem;
 }
 .hot-products .products .card-product .product a {
   text-decoration: none;
 }
 .hot-products .products .card-product .product a img {
   width: 24rem;
+}
+.hot-products .products .card-product .product a img:hover {
+  transform: scale(1.01, 1.01);
 }
 .hot-products .products .card-product .product a li {
   text-transform: uppercase;
@@ -226,7 +232,7 @@ html {
   margin-top: 2rem;
 }
 .hot-products .products .card-product .product:hover {
-  border: 0.1rem solid #c2bcbc;
+  outline: 0.1rem solid #c2bcbc;
 }
 
 /*# sourceMappingURL=style.css.map */
