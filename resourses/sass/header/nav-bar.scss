@@ -1,0 +1,82 @@
+.nav-bar {
+    &--tag {
+        display: inline-flex;
+        width: 67%;
+        >ul {
+            margin-left: 20rem;
+            line-height: 5rem;
+            >li {
+                cursor: pointer;
+                margin-left: 3rem;
+                display: inline-block;
+                font-size: 2rem;
+                a {
+                    text-decoration: none;
+                }
+                .dropdown {
+                    display: none;
+                    position: absolute;
+                    background-color: rgb(212, 226, 226);
+                    min-width: 12rem;
+                    li {
+                        font-size: 1.6rem;
+                        list-style: none;
+                        cursor: pointer;
+                        a {
+                            margin-left: 1rem;
+                            text-decoration: none;
+                        }
+                        &:hover {
+                            background-color: aliceblue;
+                        }
+                    }
+                }
+                &:hover .dropdown {
+                    display: block;
+                }
+            }
+        }
+        .logo {
+            height: 5rem;
+        }
+    }
+    &--form {
+        line-height: 5rem;
+        float: right;
+        width: 33%;
+        text-align: right;
+        font-size: 1.6rem;
+        .search {
+            margin-right: 2rem;
+            padding: 0.4rem;
+            display: inline;
+            border: 0.1rem solid black;
+            input {
+                outline: none;
+                border: none;
+                &:focus {
+                    width: 30rem;
+                }
+            }
+            >i {
+                padding: 0.3rem;
+                border-radius: 3rem;
+                cursor: pointer;
+                &:hover {
+                    background-color: yellow;
+                }
+            }
+        }
+        .cart {
+            font-size: 2rem;
+            cursor: pointer;
+            padding: .8rem;
+            margin-right: 5rem;
+            background-color: rgb(210, 214, 218);
+            border-radius: 3rem;
+            &:hover {
+                background-color: yellow;
+            }
+        }
+    }
+}

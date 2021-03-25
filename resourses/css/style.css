@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/*...........................................................*/
+.login-bar {
+  line-height: 3rem;
+  text-align: right;
+  padding-right: 5rem;
+  border-bottom: 0.1rem solid #cfc7c7;
+}
+.login-bar li {
+  margin-right: 1rem;
+  display: inline-block;
+  font-size: 1.6rem;
+}
+.login-bar li a {
+  text-decoration: none;
+}
+.login-bar li a:hover {
+  color: red;
+}
+.login-bar li i {
+  margin-right: 0.5rem;
+}
+.login-bar li:not(:last-child)::after {
+  content: "";
+  width: 0.1rem;
+  height: 1rem;
+  background-color: black;
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 0.6rem;
+}
+
+.nav-bar--tag {
+  display: inline-flex;
+  width: 67%;
+}
+.nav-bar--tag > ul {
+  margin-left: 20rem;
+  line-height: 5rem;
+}
+.nav-bar--tag > ul > li {
+  cursor: pointer;
+  margin-left: 3rem;
+  display: inline-block;
+  font-size: 2rem;
+}
+.nav-bar--tag > ul > li a {
+  text-decoration: none;
+}
+.nav-bar--tag > ul > li .dropdown {
+  display: none;
+  position: absolute;
+  background-color: #d4e2e2;
+  min-width: 12rem;
+}
+.nav-bar--tag > ul > li .dropdown li {
+  font-size: 1.6rem;
+  list-style: none;
+  cursor: pointer;
+}
+.nav-bar--tag > ul > li .dropdown li a {
+  margin-left: 1rem;
+  text-decoration: none;
+}
+.nav-bar--tag > ul > li .dropdown li:hover {
+  background-color: aliceblue;
+}
+.nav-bar--tag > ul > li:hover .dropdown {
+  display: block;
+}
+.nav-bar--tag .logo {
+  height: 5rem;
+}
+.nav-bar--form {
+  line-height: 5rem;
+  float: right;
+  width: 33%;
+  text-align: right;
+  font-size: 1.6rem;
+}
+.nav-bar--form .search {
+  margin-right: 2rem;
+  padding: 0.4rem;
+  display: inline;
+  border: 0.1rem solid black;
+}
+.nav-bar--form .search input {
+  outline: none;
+  border: none;
+}
+.nav-bar--form .search input:focus {
+  width: 30rem;
+}
+.nav-bar--form .search > i {
+  padding: 0.3rem;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+.nav-bar--form .search > i:hover {
+  background-color: yellow;
+}
+.nav-bar--form .cart {
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0.8rem;
+  margin-right: 5rem;
+  background-color: #d2d6da;
+  border-radius: 3rem;
+}
+.nav-bar--form .cart:hover {
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */
