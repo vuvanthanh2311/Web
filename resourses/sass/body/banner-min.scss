@@ -1,0 +1,40 @@
+.banner_min {
+    overflow: hidden;
+    margin-top: 5rem;
+    position: relative;
+    width: 120rem;
+    left: 50%;
+    transform: translateX(-50%);
+    &--card {
+        display: block;
+        float: left;
+        width: 50%;
+        img {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+        }
+        .description {
+            margin-top: 2rem;
+            text-align: center;
+            line-height: 4rem;
+            p {
+                font-size: 2rem;
+            }
+            a {
+                margin-left: 2rem;
+                font-size: 1.6rem;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #e21836;
+                &:hover {
+                    color: black;
+                }
+                i {
+                    margin-left: .5rem;
+                }
+            }
+        }
+    }
+}

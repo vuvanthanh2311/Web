@@ -204,7 +204,7 @@ html {
   margin-bottom: 3rem;
 }
 .hot-products .products .card-product {
-  width: 25%;
+  width: 20%;
   height: 100%;
 }
 .hot-products .products .card-product .product {
@@ -312,7 +312,7 @@ html {
   width: 100%;
 }
 .brands_box .box_brand .brand {
-  width: 20%;
+  width: 16.6%;
 }
 .brands_box .box_brand .brand img {
   width: 100%;
@@ -345,6 +345,47 @@ html {
 }
 .bannerbottom a .btnred:hover {
   outline: 0.3rem solid #490e0e;
+}
+
+.banner_min {
+  overflow: hidden;
+  margin-top: 5rem;
+  position: relative;
+  width: 120rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.banner_min--card {
+  display: block;
+  float: left;
+  width: 50%;
+}
+.banner_min--card img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+}
+.banner_min--card .description {
+  margin-top: 2rem;
+  text-align: center;
+  line-height: 4rem;
+}
+.banner_min--card .description p {
+  font-size: 2rem;
+}
+.banner_min--card .description a {
+  margin-left: 2rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #e21836;
+}
+.banner_min--card .description a:hover {
+  color: black;
+}
+.banner_min--card .description a i {
+  margin-left: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
