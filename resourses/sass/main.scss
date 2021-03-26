@@ -8,8 +8,12 @@
 
 /*...........................................................*/
 
-@import'./body/hot-product.scss';
-@import'./body/contract.scss';
-@import'./body/brands.scss';
-@import'./body/bannerbotttom.scss';
-@import'./body/banner-min.scss';
+@import'./homebody/hot-product.scss';
+@import'./homebody/contract.scss';
+@import'./homebody/brands.scss';
+@import'./homebody/bannerbotttom.scss';
+@import'./homebody/banner-min.scss';
+
+/*...........................................................*/
+
+@import'./productbody/porducts.scss';
