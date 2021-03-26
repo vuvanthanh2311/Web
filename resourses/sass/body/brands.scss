@@ -1,0 +1,28 @@
+.brands {
+    width: 100%;
+    text-align: center;
+    a {
+        font-size: 1.6rem;
+        &:hover {
+            color: rgb(212, 75, 75);
+        }
+    }
+    &_box {
+        margin-bottom: 1rem;
+        border-bottom: .1rem solid rgb(150, 145, 145);
+        width: 140rem;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        .box_brand {
+            display: flex;
+            width: 100%;
+            .brand {
+                width: 20%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

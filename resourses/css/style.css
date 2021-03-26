@@ -102,7 +102,7 @@ html {
   margin-right: 2rem;
   padding: 0.4rem;
   display: inline;
-  border: 0.1rem solid black;
+  border: 0.1rem solid #b4a6a6;
 }
 .nav-bar--form .search input {
   outline: none;
@@ -233,6 +233,118 @@ html {
 }
 .hot-products .products .card-product .product:hover {
   outline: 0.1rem solid #c2bcbc;
+}
+
+.contract {
+  background-image: linear-gradient(45deg, rgba(3, 3, 15, 0.9), rgba(1, 1, 14, 0.9)), url(/resourses/img/giay.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  padding: 5rem 0;
+}
+.contract__box {
+  width: 140rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.contract__box h1 {
+  text-transform: uppercase;
+  margin: 2rem 0.5rem;
+}
+.contract__box--info {
+  width: 40%;
+}
+.contract__box--info li {
+  line-height: 2rem;
+  margin-left: 1rem;
+  list-style: none;
+  font-size: 1.6rem;
+}
+.contract__box .sp-customer {
+  width: 20%;
+}
+.contract__box .sp-customer li {
+  line-height: 2rem;
+  margin-left: 1rem;
+  list-style: none;
+  font-size: 1.6rem;
+}
+.contract__box .sp-customer li a {
+  text-decoration: none;
+  color: white;
+}
+.contract__box .chinhsach {
+  width: 20%;
+}
+.contract__box .chinhsach li {
+  line-height: 2rem;
+  margin-left: 1rem;
+  list-style: none;
+  font-size: 1.6rem;
+}
+.contract__box .Fanpage {
+  width: 20%;
+}
+
+.brands {
+  width: 100%;
+  text-align: center;
+}
+.brands a {
+  font-size: 1.6rem;
+}
+.brands a:hover {
+  color: #d44b4b;
+}
+.brands_box {
+  margin-bottom: 1rem;
+  border-bottom: 0.1rem solid #969191;
+  width: 140rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.brands_box .box_brand {
+  display: flex;
+  width: 100%;
+}
+.brands_box .box_brand .brand {
+  width: 20%;
+}
+.brands_box .box_brand .brand img {
+  width: 100%;
+}
+
+.bannerbottom {
+  position: relative;
+  margin: 2rem 0;
+}
+.bannerbottom img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.bannerbottom a {
+  text-decoration: none;
+  position: absolute;
+  left: 51%;
+  top: 55%;
+  z-index: 2;
+}
+.bannerbottom a .btnred {
+  color: white;
+  padding: 1.5rem 1rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  background-color: #e21836;
+  border: none;
+}
+.bannerbottom a .btnred:hover {
+  outline: 0.3rem solid #490e0e;
 }
 
 /*# sourceMappingURL=style.css.map */
